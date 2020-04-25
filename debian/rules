@@ -1,5 +1,8 @@
 #!/usr/bin/make -f
 
+override_dh_autoreconf:
+	NOCONFIGURE=1 dh_autoreconf ./autogen.sh
+
 # Kill *.la files, and forget no-one:
 override_dh_install:
 	find debian/libvdpau-tegra -name '*.la' -delete
