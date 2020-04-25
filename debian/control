@@ -8,7 +8,7 @@ Vcs-Git: https://github.com/grate-driver/libvdpau-tegra.git
 Vcs-Browser: https://github.com/grate-driver/libvdpau-tegra
 Build-Depends: debhelper (>=9), dh-autoreconf, pkg-config, libvdpau-dev,
  libpixman-1-dev, libx11-dev, libxext-dev, x11proto-xext-dev, libxfixes-dev,
- libxrandr-dev, libxv-dev, libdri2-dev, libdrm-dev, x11proto-dri2-dev, bison, flex,
+ libxrandr-dev, libxv-dev, libdrm-dev, x11proto-dri2-dev, bison, flex,
 
 Package: libvdpau-tegra
 Architecture: armhf
